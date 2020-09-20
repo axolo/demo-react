@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "target": "es5",
+    "jsx": "react",
+    "typeRoots":[
+      "node_modules/@types",
+      "./typings"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [ "src/*" ]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./typings/**/*"
+  ],
+}

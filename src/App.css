@@ -1,0 +1,13 @@
+h3 {
+  margin: 0.4rem 0;
+}
+
+.bio {
+  font-size: small;
+  color: darkgray;
+}
+
+.global {
+  font-size: 1.4em;
+  text-decoration: overline;
+}
